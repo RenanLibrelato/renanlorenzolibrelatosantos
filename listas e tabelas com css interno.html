@@ -1,0 +1,161 @@
+</html><!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Listas e Tabelas com CSS interno - 20/03</title>
+        <meta charset="UTF-8">
+
+        <style>
+            body{
+                /* Posso colocar cor de fundo assim ou */
+                background-color: rgba(255, 255, 255, 0.737);
+               
+                /* Posso colocar cor de fundo com imagem (cor gradiente) */
+                /*to bottom → transição de cores na vertical de cima para baixo;*/
+                background-image: linear-gradient(to bottom, red, yellow, blue)
+
+           
+                /* Posso colocar cor com imagem */
+                background-image: url('https://img.freepik.com/vetores-gratis/fundo-de-formas-abstratas-brancas_79603-1362.jpg&#39;);
+               
+                /* Posso colocar cor com imagem salva na pasta*/
+                background-image:fundo-de-formas-abstratas-brancas.png;
+               
+                padding: 20px 20px 50px 50px;
+                /*padding = Com Quatro valores a ordem de aplicação é: superior, direita, inferior e esquerda (de acordo com o movimento dos ponteiros do relógio)é o preenchimento do CSS dentro dos limites do conteúdo, ou seja, a distância de um elemento e a borda da página  */
+               
+                margin:auto;
+                /* Definindo a área da margem nos quatro lados */
+                                    }
+
+            h1{
+
+                color:#F059A4;
+                font-size: 250%;
+                text-align: center;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                               
+            }
+
+            h2{
+                color:#F05956;
+                font-size: 30px;
+                font-family:Arial, Helvetica, sans-serif
+
+            }
+
+            h3{
+                color:#aa9e9d;
+                font-size: 30px;
+                font-family:Arial, Helvetica, sans-serif
+            }
+
+            h4{
+                color:#8443C9;
+                font-size: 30px;
+                font-family:Arial, Helvetica, sans-serif
+            }
+
+           
+            li{
+                color:#517DE0;
+                }
+
+            table{
+                background-color: #E08861; /*cor fundo tabela*/
+                width: 300px; /*comprimento da tabela*/
+                height: 150px; /*altura da tabela*/
+               
+            }
+           
+           
+            td{
+                color:#000000; /*cor da fonte dos dados da tabela*/
+                text-align: center;
+                       
+            }
+
+           
+            footer{
+                color:#990d92;
+                font-family: sans-serif;
+                text-align: center;
+                font-size: 30px;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <h1>Listas e Tabelas com CSS interno</h1>
+
+        <h2> Lista não-ordenada </h2 >
+        <ul>
+            <li> HTTP </li>
+            <li> FTP </li>
+            <li> HTPPs </li>
+            <li> TCP/IP </li>
+        </ul>
+   
+        <h3> Lista ordenada </h3 >
+        <ol>
+            <li> HTTP </li>
+            <li> FTP </li>
+            <li> HTTPs </li>
+            <li> TCP/IP</li>
+        </ol>
+
+        <h4> Tabela </h4>
+        <table border="1">
+            <tr>
+                <td> Nome </td >
+                <td> Idade </td >
+                <td> Profissão </td >
+                <td> CPF </td >
+                <td> RG </td >
+            </tr>
+            <tr>
+                <td > Renan </td >
+                <td > 15 </td >
+                <td > Estudante </td >
+                <td > 123.456.789-10 </td >
+                <td > 12 345 678-9 </td >
+            </tr>
+
+            <tr>
+                <td > Marta </td >
+                <td > 18 </td >
+                <td > Professora </td >
+                <td > 123.456.789-10 </td >
+                <td > 12 345 678-9 </td >
+            </tr >
+
+            <tr>
+                <td > Samuel </td >
+                <td > 15 </td >
+                <td > Estudante </td >
+                <td > 123.456.789-10 </td >
+                <td > 12 345 678-9 </td >
+            </tr >
+
+            <tr>
+                <td > Cirlene </td >
+                <td > 45 </td >
+                <td > Advogada </td >
+                <td > 123.456.789-10 </td >
+                <td > 12 345 678-9 </td >
+            </tr >
+
+            <tr>
+                <td > Cynthia </td >
+                <td > 22 </td >
+                <td > Estudante </td >
+                <td > 123.456.789-10 </td >
+                <td > 12 345 678-9 </td >
+            </tr >
+        </table >
+
+        <footer>
+            Renan Lorenzo
+        </footer>
+    </body>
+</html>
