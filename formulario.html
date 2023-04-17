@@ -6,6 +6,12 @@
     <title> CSS externo - Formulário - 13, 17/08 </title>
     <link rel="stylesheet" href="formulario.css">
 
+    <style>
+        form{
+            font-size: 20px;
+        }
+    </style>
+
 </head>
 
 <body>
@@ -41,10 +47,60 @@
         <input type="text" name="telefone" id="telefone"
         class="inputUser" required>
         <label for="telefone" class="labelinput">Telefone</label>
+
+        <p>Sexo:</p>
+       <input type="radio" name="genero" id="feminino"
+        value="feminino" required>
+        <label for="feminino">Feminino</label>
+        <br>
+
+       <input type="radio" name="genero" id="masculino"
+        value="masculino" required>
+        <label for="masculino">Masculino</label>
+        <br>
+
+        <input type="radio" name="genero" id="outro"
+        value="outro" required>
+        <label for="outro">Outro</label>
+        <br><br><br>
+
+        <label for="data_nascimento"><strong>Ano de Nascimento</strong></label>
+        <input type="date" name="data_nascimento" id="data_nascimento"required>
+        <br><br><br>
+
+        <section>
+            <input type="text" name="cidade" id="cidade"
+            class="inputUser" required>
+            <label for="cidade" class="labelinput">Cidade</label>
+         </section>
+
+         <br><br>
+         
+         <section>
+            <input type="text" name="estado" id="estado"
+            class="inputUser" required>
+            <label for="estado" class="labelinput">Estado</label>
+         </section>
+
+         <br><br>
+
+         <section>
+            <input type="text" name="endereco" id="endereco"
+            class="inputUser" required>
+            <label for="endereco" class="labelinput">Endereço</label>
+         </section>
+
+         <br><br>
+
+         <section>
+            <input type="submit" name="submit" id="submit"
+            class="inputUser" required>
+         </section>
+
      </section>
-    </section>
-   </fieldset>
-</form>
+     </section>
+     </fieldset>
+  </form>
 </main>
 <footer> <!--Rodapé--> </footer>
 
