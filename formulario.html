@@ -31,8 +31,7 @@
 
 <section class="inputBox">
     <input type="text" name="email" id="email"
-    class="inputUser" required
-    placeholder="seuemail@dominio.com">
+    class="inputUser" required>
     <label for="email" class="labelinput">Email</label>
     </section>
 
@@ -40,8 +39,7 @@
 
 <section class="inputBox">
     <input type="text" name="telefone" id="telefone"
-    class="inputUser" required
-    placeholder="(XX) XXXXX - XXXX">
+    class="inputUser" required>
     <label for="telefone" class="labelinput">Telefone</label>
 
     <p>Sexo:</p>
@@ -144,19 +142,34 @@ legend{
 
 .inputUser{
     background: none;
-    border: none;
+    border: none;/*tirar a borda*/
     border-bottom: 1px solid black;
-    outline: none;
-    color: black;
+    outline: none;/*tirar a linha de fora do input*/
+    color: rgb(252, 252, 252);
     font-size: 20px;
     width: 100%;
-    letter-spacing: 2px;
+    letter-spacing: 2px;/*espaço entre cada caracter no input*/ 
 }
 
-.lableinput{
-    position: absolute;
+.lableinput{/*animação das labels - nessa parte, as labels irão se encaixar dentro dos inputs*/
+    position: absolute;/*vai ocupar apenas o elemento dela mesma*/
     top: 0px;
     left: 0px;
-    pointer-events: none;
-    transition: 5px;
+    pointer-events: none;/*qualquer lugar que eu clicar dentro do input, ele vai executar a ação*/
+    transition: 5px;/*transição - para criaçao de efeito de animação personalizado*/
+}
+
+/*quando clicar no input eu quero que a label vai para cima do input - por isso a ação é no input*/
+
+.inputUser:focus ~ .labelinput, /*executar uma ação na nossa label*/
+.inputUser:valid ~ .labelinput{ /*quando  o input tiver válido, eu quero
+                                  que ele execute essa ação para a label
+                                  - a informação irá permanecer no 
+                                 input, senão ira ficar por cima*/
+
+    
+    top: -20px;
+    font-size: 20px;
+    color: rgb(109, 97, 153);
+
 }
