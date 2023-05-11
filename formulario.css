@@ -67,3 +67,27 @@ legend{
     color: rgb(109, 97, 153);
 
 }
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+#submit{
+    background-image: linear-gradient(to right, rgb(50, 45, 77), rgb(103, 84, 138));
+    width: 100%;
+    border: none;/*tirar a borda do botão Enviar*/
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor:  pointer; /*Quando passar o mouse por cima do botão enviar, muda o cursor*/
+    border-radius: 10px;
+}
+
+#submit:hover{
+    background-image: Linear-gradient(to right, rgb(22, 54, 87), rgb(149, 100, 223));
+    /*Quando passar o mouse por cima do botão enviar, irá aplicar esse azul um pouco mais escuro*/
+}
