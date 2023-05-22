@@ -1,0 +1,31 @@
+header{
+    background-color:#493f5f;
+    padding: 20px;
+}
+
+#logo{
+    border-radius: 500px;
+}
+
+@font-face {
+    font-family: 'open sans';
+    src: url('OpenSans-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+.titulo-principal{
+    position: absolute;
+    top:13%;
+    left:50%;
+    transform: translate(-10%, -50%);
+    font-size: 35px;
+    font-family: 'open sans';
+}
+
+main{
+    width: 940px;
+    margin: auto;
+}
+
+form{
+    margin: 20px 0;
+}
