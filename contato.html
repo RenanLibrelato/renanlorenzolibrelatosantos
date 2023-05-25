@@ -3,15 +3,81 @@
     <head>
         <meta charset="UTF-8">
         <title>Contato</title>
+
+        <link rel="stylesheet" href="contato(1).css">
+
     </head>
     <body>
-
         <header>
-            <img id="logo" src="logotipo1.png">
+            <img id="logo" src="logojogos.png">
+            <h1 class="titulo-principal">Login para acesso ao Site</h1>
         </header>
         <main>  
+            <form>
+               <fieldset>
+                 <legend><strong>
+                  Jogos Azucar
+                 </legend></strong>
+                 
+            <label for="nomeesobrenome"> Insira seu Nome e Sobrenome </label>
+            <input type="text" name="nome" id="nomeesobrenome"
+            class="input-padrao" placeholder="Seu nome e sobrenome" required>
+
+            <br> <br>
+
+            <label for="email"> Insira seu Email </label>
+            <input type="email" name="email" id="email"
+            class="input-padrao" placeholder="Seu E-mail" required>
+
+            <br> <br>
+
+            <label for="telefone"> Insira seu Telefone </label>
+            <input type="telefone" name="telefone" id="telefone"
+            class="input-padrao" placeholder="(XX) XXXXX-XXXX" required>
+
+            <br> <br>
+
+            <label for="mensagem"> Mensagem </label>
+            <textarea coLs="45" row="100" id="mensagem" required></textarea>
+
+            <section>
+                <p> Como prefere nosso contato? </p>
+                <input type="radio" name="contato" value="email" id="radio-email">
+                <label for="radio-email">Email</label>
+                <input type="radio" name="contato" value="whatsapp" id="radio-whatssap">
+                <label for="radio-whatssap">Whatsapp</label>
+                <input type="radio" name="contato" value="telefone" id="radio-telefone">
+                <label for="radio-telefone">Telefone</label>
+            </section>
+
+            <section>
+                <p>Qual horário prefere ser atendido?</p>
+                <select>
+                    <option>Manhã</option>
+                    <option>Tarde</option>
+                    <option>Noite</option>
+                </select>
+            </section>
+
+            <br> <br> <br>
+
+            <label class="checkbox">
+                <input type="checkbox">Gostaria de Receber nossas novidades por email?</label>
+            </section>
+
+            <br> <br> 
+
+            <section>
+                <input type="submit" value="Enviar Formulário" id="submit"
+                class="inputUser">
+            </section>
+
+            </fieldset>
+            </form>
         </main>
         <footer>
+            <img id="logojogos.png" src="logotipo.png">
+            <p class="copyright">&copy; Copyright -- Renan Lorenzo</p>
         </footer>
     </body>
 </html>
