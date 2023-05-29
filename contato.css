@@ -5,6 +5,8 @@ header{
 
 #logo{
     border-radius: 500px;
+    height: 200px;
+    width: 200px;
 }
 
 @font-face {
@@ -17,15 +19,73 @@ header{
     top:13%;
     left:50%;
     transform: translate(-10%, -50%);
-    font-size: 35px;
-    font-family: 'open sans';
+    font-size: 45px;
+    font-family: 'opensans';
 }
 
 main{
     width: 940px;
     margin: auto;
+    font-family: 'opensans';
 }
 
 form{
     margin: 20px 0;
+}
+
+form label, form p{
+    display: black;
+    font-size: 20px;
+    margin: 0 0 10px; /* 10px para baixo */
+}
+
+.input-padrao{
+    display: black;
+    margin: o o 20px;/* 20px para baixo */
+    padding: 10 px 25px; /* 10px para cima e para baixo e 25 px para os lados */
+    width: 50%; /* largura dos meus inputs */
+}
+
+.checkbox{
+    margin: 20px 0; /* 20 px para cima e para baixo e zero na laterais */
+}
+
+#enviar {
+    width:40%;
+    padding: 15px 0;
+    background: #493f5f;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+#enviar:hover {
+    background: #493f5f;
+    transform: scale(1.2);
+}
+
+.copyright {
+    color: #000000;
+    font-size: 13px;
+    margin: 10px 0 0;
+}
+
+footer{
+    text-align: center;
+    background-image: url ("logotipo1.png"); /*Esta propriedade é utilizada para inserir imagens como
+                                               plano de fundo de um elemento. Para isso, fazemos uso da
+                                               função url(), para a qual passamos como parametro o caminho
+                                               da imagem a ser inserida.*/
+    padding: 10px 0;
+    background: #493f5f;
+}
+
+#logo2{
+    border-radius: 500px;
+    width: 90px;
+    height: 90px;
 }
