@@ -21,6 +21,26 @@ header{
     transform: translate(-10%, -50%);
     font-size: 45px;
     font-family: 'opensans';
+    color: #ffffff;
+    /*A proriedade text-shadow acrescenta sombras ao texto.
+    Ela aceita uma lista de sombras separadas por virgula que
+    aplicados ao texto e ao text-decorations de elemento*/
+    color:#000000;
+    text-shadow:
+               -1px -1px 0px #ffA500,
+               -1px  4px 0px #FFF,
+               1px -1px 0px  #FFF,
+               1px  0px 0px  #FFF;
+  /*font-family: 'Gagalin', sem serifa;*/
+  /*font-family:barlow;*/
+
+}
+
+nav {
+ position: absolute;
+ /*posicionamento dos links*/
+ top: 180px;
+ right: 50px;
 }
 
 main{
@@ -42,8 +62,12 @@ form label, form p{
 .input-padrao{
     display: black;
     margin: o o 20px;/* 20px para baixo */
-    padding: 10 px 25px; /* 10px para cima e para baixo e 25 px para os lados */
+    padding: 10px 25px; /* 10px para cima e para baixo e 25 px para os lados */
     width: 50%; /* largura dos meus inputs */
+}
+
+input::placeholder, textarea{
+    color: rgb(107, 79, 246);
 }
 
 .checkbox{
@@ -64,8 +88,8 @@ form label, form p{
 }
 
 #enviar:hover {
-    background: #493f5f;
-    transform: scale(1.2);
+    background: #5019c9;
+    transform: scale(1.1);
 }
 
 .copyright {
