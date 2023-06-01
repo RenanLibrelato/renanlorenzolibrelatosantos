@@ -4,17 +4,26 @@
         <meta charset="UTF-8">
         <title>Contato</title>
 
+        <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="contato.css">
-
+    
     </head>
     <body>
+        <fieldset>
         <header>
-            <img id="logo" src="logotipo1.png">
+            <img id="logo" src="logotipo1.png" alt="Azucar Studio">
             <h1 class="titulo-principal">Jogos Azucar</h1>
+
+            <nav> 
+                <uj>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="produtos.html">produtos</a></li>
+                    <li><a href="contato.html">contato</a></li>
+                </uj>
+            </nav>
         </header>
         <main>  
             <form>
-               <fieldset>
                  <legend><strong>
                   Jogos Azucar
                  </legend></strong>
@@ -38,13 +47,14 @@
             <br> <br>
 
             <label for="mensagem"> Mensagem </label>
-            <textarea coLs="45" row="100" id="mensagem" required></textarea>
+            <textarea cols="70" rows="10" id="mensagem" required
+            placeholder="Digite aqui sua Mensagem"></textarea>
 
             <br><br>
 
             <section>
                 <p> Como prefere nosso contato? </p>
-                <input type="radio" name="contato" value="email" id="radio-email">
+                <input type="radio" name="contato" value="email" id="radio-email" checked> 
                 <label for="radio-email">Email</label>
 
                 <br>
@@ -85,7 +95,6 @@
                 class="inputUser">
             </section>
 
-            </fieldset>
             </form>
         </main>
         <footer>
