@@ -27,10 +27,10 @@ header{
     aplicados ao texto e ao text-decorations de elemento*/
     color:#000000;
     text-shadow:
-               -1px -1px 0px #ffA500,
-               -1px  4px 0px #FFF,
-               1px -1px 0px  #FFF,
-               1px  0px 0px  #FFF;
+               -1px -1px 0px #000000,
+               -1px  4px 0px #000000,
+               1px -1px 0px  #000000,
+               1px  0px 0px  #000000;
   /*font-family: 'Gagalin', sem serifa;*/
   /*font-family:barlow;*/
 
@@ -41,6 +41,28 @@ nav {
  /*posicionamento dos links*/
  top: 180px;
  right: 50px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+    font-size: 22px; 
+    text-decoration: none;/*sem linha embaixo do link*/
+
+    font-family: 'opensans';
+                         
+}
+
+
+nav a:hover {
+    color: #fff;
+    text-decoration: underline;
 }
 
 main{
@@ -54,7 +76,7 @@ form{
 }
 
 form label, form p{
-    display: black;
+    display: block;
     font-size: 20px;
     margin: 0 0 10px; /* 10px para baixo */
 }
