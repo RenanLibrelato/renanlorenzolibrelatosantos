@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Empresa</title>
+
+        <link rel="stylesheet" href="contato.css">
+    
+    </head>
+    <body>
+        <header>
+            <img id="logo" src="imagem1.png" alt="">
+            <h1 class="titulo-principal">Daguêrre</h1>
+
+        </header>
+        <main>  
+            <p> A Nossa empresa é especializada na procura de profissionais para edições e gravações de vídeo, nós oferecemos serviços para influenciadores digitais, canais de jornalismo e clientes interessados.
+                Nos responsabilizamos por edição e gravação de vídeo para quem queira contratar nossos serviços, podemos oferecer  </p>
+        
+        </main>
+    </body>
+</html>
