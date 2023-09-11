@@ -10,7 +10,8 @@
         window.alert ('Heyhey Amigos!')
         window.confirm ('Programação Front-End')
         nome=window.prompt ('Digite seu nome')
-        window.alert(nome)
+        window.alert(nome)  
+        document.write(nome)
     </script>
 </body>
 </html>
