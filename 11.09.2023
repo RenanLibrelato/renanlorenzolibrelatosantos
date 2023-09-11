@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Meu programa em Java Scripit</title>
+</head>
+<body>
+    <h1>Minha página usando Java Script</h1>
+    <script>
+        window.alert ('Heyhey Amigos!')
+        window.confirm ('Programação Front-End')
+        nome=window.prompt ('Digite seu nome')
+        window.alert(nome)
+    </script>
+</body>
+</html>
