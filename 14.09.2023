@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Numeros</title>
+</head>
+<body>
+    <script>
+        var nome=window.prompt("Digite seu nome:")
+        document.write(nome)
+        window.alert(nome)
+
+        var numero= Number.parseInt (window.prompt("Digite um Número:"))
+        document.write(numero, '<br>')
+
+        var numero1= Number.parseInt (window.prompt("Digite seu nome:"))
+        document.write(numero1)
+
+        var soma=numero+numero1
+        document.write(soma)
+    </script>
+</body>
+</html>
