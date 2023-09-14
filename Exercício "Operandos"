@@ -7,22 +7,22 @@
 <body>
     <script>
         var numero= Number.parseInt (window.prompt("Digite um Número:"))
-        document.write(numero, '<br>')
+        document.write('Seu número:', numero, '<br>')
 
         var numero1= Number.parseInt (window.prompt("Digite seu Número:"))
-        document.write(numero1, '<br>')
+        document.write('Seu número:', numero1, '<br>')
 
-        var soma= numero+numero1
-        document.write(soma, '<br>')
+        soma=numero+numero1
+        document.write('Soma:',soma, '<br>')
 
-        var subtração= numero-numero1
-        document.write(subtração, '<br>')
+        subtração= numero-numero1
+        document.write('Subtração:', subtração, '<br>')
 
-        var divisão= numero/numero1
-        document.write(divisão, '<br>')
+        divisão= numero/numero1
+        document.write('Divisão:', divisão, '<br>')
 
-        var resto= numero%numero1
-        document.write(resto, '<br>')
+        resto= numero%numero1
+        document.write('Resto:', resto, '<br>')
     </script>
 </body>
 </html>
