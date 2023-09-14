@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Operandos</title>
+</head>
+<body>
+    <script>
+        var numero= Number.parseInt (window.prompt("Digite um Número:"))
+        document.write(numero, '<br>')
+
+        var numero1= Number.parseInt (window.prompt("Digite seu Número:"))
+        document.write(numero1, '<br>')
+
+        var soma= numero+numero1
+        document.write(soma, '<br>')
+
+        var subtração= numero-numero1
+        document.write(subtração, '<br>')
+
+        var divisão= numero/numero1
+        document.write(divisão, '<br>')
+
+        var resto= numero%numero1
+        document.write(resto, '<br>')
+    </script>
+</body>
+</html>
