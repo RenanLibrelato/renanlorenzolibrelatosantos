@@ -19,3 +19,27 @@
     </script>
 </body>
 </html>
+
+
+----
+
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>?</title>
+</head>
+<body>
+    <div onmouseover = "mOver (this)"
+         onmouseout = "mOut (this)"
+         style =  "background-color: blue; width: 120px; height: 80px; padding: 40px;"> 
+         Passe o Mouse sobre mim.
+    </div>
+
+    <script> 
+         function mOver (obj) {obj.innerHtml="Passe o Mouse sobre mim."}
+         function mOut (obj) {obj.innerHtml="Passe o Mouse."}
+    </script>
+</body>
+</html>
