@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+    <div class="cabecalho">
+        <img src="logo.jpg" height="200px" align="center">
+        <h1><center>Feastables</center></h1>
+    </div>
+    <div class="conteudo">
+        <img src="chocolate1.jpg" height="500px">
+        <img src="chocolate3.jpg" height="500px">
+        <img src="chocolate4.jpg" height="500px">
+
+
+    </div>
+</body>
+</html>
+
+
+
+-----------------CSS-----------------
+
+
+
+.conteudo{background-color: rgb(54, 129, 99);
+    width:auto;
+    height:800px;
+    
+    }
+    
+    .cabecalho{background-color: rgb(139, 50, 233);
+    color: rgb(255, 255, 255);
+    width:auto;
+    height:300px;
+    }.conteudo{background-color: rgb(253, 255, 255);
+width:auto;
+height:800px;
+
+}
