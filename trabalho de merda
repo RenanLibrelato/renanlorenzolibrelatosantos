@@ -9,17 +9,19 @@
 </head>
 <body>
     <div class="cabecalho">
-        <img src="logo.jpg" height="200px" align="center">
+        <img src="chocolate.png" height="200px" align="center">
         <h1><center>Feastables</center></h1>
     </div>
     <div class="conteudo">
         <img src="chocolate1.jpg" height="500px">
         <img src="chocolate3.jpg" height="500px">
         <img src="chocolate4.jpg" height="500px">
+        <h1><center><Button><a href="https://www.google.com/search?q=Louisiana&source=lmns&bih=732&biw=1440&client=firefox-b-d&hl=pt-BR&sa=X&ved=2ahUKEwjTiuaEgOWCAxU5TLgEHRjZCYEQ_AUoAHoECAEQAA">Button</a></Button></center></h1>
 
 
     </div>
 </body>
+
 </html>
 
 
@@ -34,7 +36,7 @@
     
     }
     
-    .cabecalho{background-color: rgb(139, 50, 233);
+    .cabecalho{background-color: rgb(254, 254, 254);
     color: rgb(255, 255, 255);
     width:auto;
     height:300px;
